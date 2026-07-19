@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+logs/
+*.db
+*.json
+*.png
+venv/
+.venv/
+bun.exe
+*.bat
+site/
+session_10_dialog.txt
