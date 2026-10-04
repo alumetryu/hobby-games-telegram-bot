@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 _API_BASE = CS_URL.split("/pos")[0] if "/pos" in CS_URL else CS_URL
 
 # ID магазина из ответа API (store._id)
-_STORE_ID = "5b239c213ce7d53c098b4594"
+_STORE_ID = "CS_STORE_ID"
 # Часовой пояс (UTC+5 = 18000 секунд — как в браузере)
 _TIMEZONE = 18000
 
